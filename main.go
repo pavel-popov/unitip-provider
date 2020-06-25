@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
+	"log"
 	"os"
 )
 
@@ -38,6 +39,7 @@ type matcherFunc func(string) []item
 
 func main() {
 	selection := os.Args[1]
+	log.Printf("selection: %s", selection)
 	matchers := []matcherFunc{
 		geoCoords,
 		unixTimestamp,

@@ -5,7 +5,7 @@ import (
 	"regexp"
 )
 
-var jiraRegexp = regexp.MustCompile(`^(ch|CH)-?(\d+)$`)
+var jiraRegexp = regexp.MustCompile(`(ch|CH)-?(\d+)`)
 
 func jiraLink(sel string) []item {
 	ll := jiraRegexp.FindSubmatch([]byte(sel))
