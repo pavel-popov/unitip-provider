@@ -44,6 +44,7 @@ func main() {
 		geoCoords,
 		unixTimestamp,
 		jiraLink,
+		cloudWatchLink,
 	}
 	result := []item{}
 	for _, matcher := range matchers {
