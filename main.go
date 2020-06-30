@@ -45,6 +45,7 @@ func main() {
 		unixTimestamp,
 		jiraLink,
 		cloudWatchLink,
+		batchLink,
 	}
 	result := []item{}
 	for _, matcher := range matchers {

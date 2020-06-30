@@ -1,4 +1,3 @@
-// "LogStreamName": "sfexec-stg/default/96efd666-1f1f-4aa6-87f8-22353e82d850"
 package main
 
 import (
