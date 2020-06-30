@@ -46,6 +46,7 @@ func main() {
 		jiraLink,
 		cloudWatchLink,
 		batchLink,
+		sfnLink,
 	}
 	result := []item{}
 	for _, matcher := range matchers {
